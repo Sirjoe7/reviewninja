@@ -1,8 +1,8 @@
 // Central settings. Values come from .env.local (see .env.example); edit defaults here if you prefer.
 export const site = {
-  brand: "ReviewNinja",
+  brand: "TheAmazonReviewer",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.example.com",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "reviewninjaofficial@gmail.com",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "theamazonreviewer@gmail.com",
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || "254778210955",
   address: process.env.NEXT_PUBLIC_ADDRESS || "",
   formEndpoint: process.env.NEXT_PUBLIC_FORM_ENDPOINT || "",

@@ -35,6 +35,7 @@ export default function PricingSection() {
             <p className="small">Estimated price, in USD, at ${site.pricePer100} per 100 pages.</p>
             <a className="btn" href="#contact" onClick={goToForm} style={{ margin: "12px 0 20px" }}>Get Started</a>
             <p className="small" style={{ margin: 0 }}>Final pricing is confirmed based on the submitted book and agreed scope of work.</p>
+            <p className="small" style={{ margin: 0,}}><strong>Payments to be done strictly through Escrow.</strong></p>
           </div>
         </div>
       </div>

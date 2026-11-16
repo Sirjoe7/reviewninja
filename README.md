@@ -1,4 +1,4 @@
-# ReviewNinja website (Next.js)
+# TheAmazonReviewer website (Next.js)
 
 Next.js 15 (App Router), TypeScript, Tailwind CSS. Static output, no database or backend.
 
