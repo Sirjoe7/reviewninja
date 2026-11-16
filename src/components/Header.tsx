@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { site } from "@/config/site";
@@ -22,7 +23,9 @@ export default function Header() {
     <header id="top" className={scrolled ? "s" : ""}>
       <div className="wrap">
         <nav aria-label="Main">
-          <Link className="logo" href="/">{site.brand}</Link>
+          <Link className="logo" href="/" aria-label={site.brand}>
+            <Image src="/the-amazon-reviewer-logo.png" alt={site.brand} width={180} height={72} priority />
+          </Link>
           <button className="burger" aria-expanded={open} aria-controls="links" onClick={() => setOpen(!open)}>Menu</button>
           <div className={"links" + (open ? " open" : "")} id="links">
             {links.map(([label, href]) => <Link key={href} href={href} onClick={close}>{label}</Link>)}
