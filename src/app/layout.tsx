@@ -9,7 +9,7 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Amazon & Kindle Book Review Services", template: `%s | ${site.brand}` },
+  title: { default: "TheAmazonReviewer", template: `%s | ${site.brand}` },
   description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads. $10 per 100 pages.",
   alternates: { canonical: "./" },
   openGraph: {
