@@ -8,12 +8,12 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Independent Book Reading and Editorial Feedback for Authors", template: `%s | ${site.brand}` },
-  description: "Independent book reading and honest editorial feedback for authors and publishers worldwide. Straightforward pricing: $10 per 100 pages.",
+  title: { default: "Amazon & Kindle Book Review Services", template: `%s | ${site.brand}` },
+  description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads. $10 per 100 pages.",
   alternates: { canonical: "./" },
   openGraph: {
-    title: "Every Book Deserves to Be Read",
-    description: "Independent reading and thoughtful editorial feedback. $10 per 100 pages.",
+    title: "Struggling To Get Good Reviews? | Amazon & Kindle Book Review Services",
+    description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads",
     type: "website",
     siteName: site.brand,
   },

@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="fg">
           <div>
             <Link className="logo" href="/">{site.brand}</Link>
-            <p className="mute" style={{ maxWidth: "36ch", marginTop: 12 }}>Independent book reading and editorial feedback for authors and publishers worldwide.</p>
+            <p className="mute" style={{ maxWidth: "36ch", marginTop: 12 }}>Independent book reading and review services for authors and publishers worldwide.</p>
           </div>
           <nav aria-label="Footer">
             <ul>

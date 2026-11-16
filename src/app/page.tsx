@@ -11,8 +11,8 @@ import ContactSection from "@/components/ContactSection";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Independent Book Reading and Editorial Feedback",
-  description: "Independent book reading and editorial feedback for authors and publishers. $10 per 100 pages.",
+  name: "Amazon & Kindle Book Review Services",
+  description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads. $10 per 100 pages.",
   priceRange: "$10 per 100 pages",
 };
 
