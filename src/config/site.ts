@@ -10,7 +10,7 @@ export const site = {
   pricePer100: 10, // USD per 100 pages
 };
 export const siteHost = new URL(site.url).host;
-export const whatsappMessage = "Hello, I am interested in your book reading service. I would like to discuss submitting my book.";
+export const whatsappMessage = "Hello, I am interested in your book review service. I would like to discuss submitting my book.";
 export const whatsappUrl = site.whatsapp
   ? `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`
   : "";
