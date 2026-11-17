@@ -27,8 +27,7 @@ export default function Footer() {
           <div>
             <ul>
               <li>Email: <a href={`mailto:${site.email}`}>{site.email}</a></li>
-              <li>WhatsApp: {whatsappDisplay}</li>
-              {site.address && <li>Address: {site.address}</li>}
+              
             </ul>
           </div>
         </div>
