@@ -13,10 +13,11 @@ export const metadata: Metadata = {
   description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads. $10 per 100 pages.",
   alternates: { canonical: "./" },
   openGraph: {
-    title: "Struggling To Get Good Reviews? | Amazon & Kindle Book Review Services",
+    title: "Amazon & Kindle Book Review Services",
     description: "Independent book reading and reviews for authors and publishers on Amazon, Kindle and Goodreads",
     type: "website",
     siteName: site.brand,
+   
   },
 };
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
